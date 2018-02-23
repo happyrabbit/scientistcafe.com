@@ -6,10 +6,19 @@
     <description>Recent content in Home on Statistics = Science &#43; Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jul 2017 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What kind of questions can data science solve?</title>
+      <link>/post/2017/07/11/what-kind-of-questions-can-data-science-solve/</link>
+      <pubDate>Tue, 11 Jul 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2017/07/11/what-kind-of-questions-can-data-science-solve/</guid>
+      <description>Hui Lin Follow me on Twitter Github 2017-07-11 What kind of questions can data science solve?  Prerequisites Data science is not a panacea, and data scientists are not magicians. There are problems data science can’t help. It is best to make a judgment as early in the analytical cycle as possible. Tell your clients honestly and clearly when you figure data analytics can’t give the answer they want. What kind of questions can data science solve?</description>
+    </item>
     
     <item>
       <title>Another Note on A blogdown Tutorial</title>
