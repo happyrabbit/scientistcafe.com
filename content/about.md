@@ -1,101 +1,143 @@
 ---
-title: About Hugo XMin
-author: Yihui Xie
+title:  Statistics = Science(Data) + Art(Intuition)
+author:  Hui Lin
 ---
 
-**XMin** is the first Hugo theme I have designed. The original reason that I wrote it was I needed a minimal example of Hugo themes when I was writing the  [**blogdown**](https://github.com/rstudio/blogdown) book. Basically I wanted a simple theme that supports a navigation menu, a home page, other single pages, lists of pages, blog posts, categories, tags, and RSS. That is all. Nothing fancy. In terms of CSS and JavaScript, I really want to keep them minimal. In fact, this theme does not contain any JavaScript code at all, although on this example website I did introduce some JavaScript code (still relatively simple anyway). The theme does not contain any images, either, and is pretty much a plain-text theme.
 
-The theme name "XMin" can be interpreted as "**X**ie's **Min**imal theme" (Xie is my last name) or "e**X**tremely **Min**imal theme".
+## Data Science Workshop 
 
-# config.toml
 
-For this example site, I defined permalinks for two sections, `post` and `note`, so that the links to pages under these directories will contain the date info, e.g., `https://xmin.yihui.name/post/2016/02/14/a-plain-markdown-post/`. This is optional, and it is up to your personal taste of URLs.
+>  The online tutorials are co-sponsored by [American Statistical Association(ASA) Statistics in Marketing Section](http://community.amstat.org/statisticsinmarketingsection/home) and [Central Iowa R User Group (CIRUG)](http://www.meetup.com/Central-Iowa-R-User-Group)
 
-```
-[permalinks]
-    post = "/post/:year/:month/:day/:slug/"
-    note = "/note/:year/:month/:day/:slug/"
-```
 
-You can define the menu through `menu.main`, e.g.,
+<li>2018-04-26: Randomization for Networked Experiments,
+<a href="https://www.youtube.com/watch?v=4vU1Jn1XSz4">[YouTube]</a>
+<!--<a href="http://scientistcafe.com/2017/09/09/workshopDec.html">[Detail]</a>,
+<a href="http://scientistcafe.com/CIRUG/MKSC_Privacy_Accepted.pdf">[Paper]</a>-->
+</li>
 
-```
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-[[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 3
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-[[menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
-```
+<li>2018-04-12: <a href="http://scientistcafe.com/2018/01/25/workshop2018Apr.html">A Bayesian Approach to Optimal Pricing Using Business Rules</a>,
+<a href="https://www.youtube.com/watch?v=wmonu-q_oKU">[YouTube]</a>
+<!--<a href="http://scientistcafe.com/2017/09/09/workshopDec.html">[Detail]</a>,
+<a href="http://scientistcafe.com/CIRUG/MKSC_Privacy_Accepted.pdf">[Paper]</a>-->
+</li>
 
-Alternatively, you can add `menu: main` to the YAML metadata of any of your pages, so that these pages will appear in the menu.
 
-The page footer can be defined in `.Params.footer`, and the text is treated as Markdown, e.g.,
 
-```
-[params]
-    footer = "&copy; [Yihui Xie](https://yihui.name) 2017"
-```
+<li>2017-12-14: <a href="http://scientistcafe.com/2017/09/09/workshopDec.html">A Flexible Method for Protecting Marketing Data</a>,
+<a href="https://www.youtube.com/watch?v=-jKVHh0M2qg">[YouTube]</a>,
+<a href="http://scientistcafe.com/CIRUG/MKSC_Privacy_Accepted.pdf">[Paper]</a>
+</li>
 
-# Custom layouts
+<li>2017-10-24: <a href="http://scientistcafe.com/2017/09/21/workshopOct.html">Customer Analytics in a Multichannel World</a>,
+<a href="https://www.youtube.com/watch?v=n9Y3y5p5bbg">[YouTube]</a>,
+<a href="https://github.com/happyrabbit/linhui.org/blob/gh-pages/CIRUG/MultichannelOperationsASAWebinar.pdf">[Slides]</a>
+</li>
 
-There are two layout files under `layouts/partials/` that you may want to override: `head_custom.html` and `foot_custom.html`. This is how you inject arbitrary HTML code to the head and foot areas. For example, this site has a file `layouts/partials/foot_custom.html` to support LaTeX math via MathJax and center images automatically:
+<li>2017-08-29: <a href="http://scientistcafe.com/2017/02/10/workshopAug.html">Customer Preference for (Un)biased News</a>,
+<a href="https://www.youtube.com/watch?v=1WBzJEY-A7A">[YouTube]</a>,
+<a href="http://scientistcafe.com/CIRUG/simonov_jmp_russianmedia.pdf">[Paper]</a>
+</li>
 
-```html
-<script src="//yihui.name/js/math-code.js"></script>
-<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+<li>2017-07-24: <a href="http://scientistcafe.com/2017/02/10/workshopJuly.html">Customer-Based Corporate Valuation</a>, 
+<a href="https://www.youtube.com/watch?v=8IQi4-AcSfM">[YouTube]</a>,
+<a href="http://scientistcafe.com/CIRUG/2017_07_24ASA_TalkDanMcCarthy.pdf">[Slides]</a>
+</li>
 
-<script async src="//yihui.name/js/center-img.js"></script>
-```
+<li>2017-06-26: <a href="http://scientistcafe.com/2017/02/07/workshop201706.html">New packages in R Markdown ecosystem</a>,
+<a href="https://www.youtube.com/watch?v=mmmQ_7V9IZI">[YouTube]</a>,
+<a href="https://slides.yihui.name/2017-ASA-Marketing-rmarkdown-Yihui-Xie.html#1">[Slides]</a>
+</li>
 
-You can certainly enable highlight.js for syntax highlighting by yourself through `head_custom.html` and `foot_custom.html` if you want.
+<li>2017-04-24: <a href="http://scientistcafe.com/2017/02/04/workshop201704.html">Big Data Cloud Platform in Industry</a>,
+<a href="https://www.youtube.com/watch?v=barlG0UY-aE">[YouTube]</a>,
+<a href="http://scientistcafe.com/CIRUG/DataScienceWebinar-MLi.pdf">[Slides]</a>
+</li>
 
-If you do not like the default fonts (e.g., `Palatino`), you may provide your own `static/css/fonts.css` under the root directory of your website to override the `fonts.css` in the theme.
+<li>2017-03-28: <a href="http://scientistcafe.com/2017/01/31/workshop201703.html">Unlock Unstructured Social Media Data in Marketing</a>,
+<a href="https://youtu.be/svaLEPrV3VA">[YouTube]</a>,
+<a href="http://scientistcafe.com/CIRUG/Rand.pdf">[Slides]</a>
+</li>
 
-# Other features
+<li>2017-02-28: <a href="http://scientistcafe.com/2017/01/31/workshop201702.html">Putting Big Data & Analytics to Work!</a>,
+<a href="https://www.youtube.com/watch?v=91o80BisGHQ">[YouTube]</a>, 
+<a href="http://scientistcafe.com/CIRUG/Bart.pdf">[Slides]</a>
+</li>
 
-I could have added more features to this theme, but I decided not to, since I have no intention to make this theme feature-rich. However, I will teach you how. I have prepared several examples via pull requests at https://github.com/yihui/hugo-xmin/pulls, so that you can see the implementations of these features when you check out the diffs in the pull requests. For example, you can:
 
-- [Enable Google Analytics](https://github.com/yihui/hugo-xmin/pull/3)
+<li>2016-08-10: <a href="http://scientistcafe.com/CIRUG/CausalMediationAnalysis.pdf">An Introduction to Causal Mediation Analysis</a>,
+<a href="http://www.youtube.com/watch?v=32vd7qDa-zM">[YouTube]</a>,
+<a href="http://scientistcafe.com/CIRUG/CausalMediationAnalysis.pdf">[Slides]</a>
+</li>
 
-- [Enable Disqus comments](https://github.com/yihui/hugo-xmin/pull/4)
+<li>2016-07-21: <a href="http://hui1987.com/Presentations/AirlineSurvey_XueQing/AirlineSurveyPerception.html#(1)">?R??????????????</a>,
+<a href="https://youtu.be/joajST7JByo">[YouTube]</a>,
+<a href="http://www.xueqing.tv/course/69">[?????]</a>,
+<a href="http://hui1987.com/Presentations/AirlineSurvey_XueQing/AirlineSurveyPerception.html#(1)">[Slides],</a>
+<a href="http://hui1987.com/Presentations/AirlineSurvey_XueQing/Rcode.R">[Rcode]</a>
+</li>
 
-- [Enable highlight.js for syntax highlighting of code blocks](https://github.com/yihui/hugo-xmin/pull/5)
+<li>2016-07-14: <a href="http://scientistcafe.com/CIRUG/chapman-feit-R-for-Marketing-Research-book-talk.pdf">R for Marketing Research and Analytics</a>,
+<a href="http://www.youtube.com/watch?v=buxXt1F34QY">[YouTube]</a>,
+<a href="http://scientistcafe.com/CIRUG/chapman-feit-R-for-Marketing-Research-book-talk.pdf">[Slides]</a>
+</li>
 
-- [Display categories and tags on a page](https://github.com/yihui/hugo-xmin/pull/2)
+<li>2016-06-08: <a href="http://hui1987.com/Presentations/COS_NA2016-6-8/Presentation_2016_6_8.html">????????????1?</a>,
+ <a href="https://www.youtube.com/watch?v=fsHgJhOYOTM">[YouTube]</a>, 
+<a href="http://www.xueqing.tv/course/67">[?????]</a>,
+<a href="http://hui1987.com/Presentations/COS_NA2016-6-8/Presentation_2016_6_8.html">[Slides]</a>,
+<a href="http://hui1987.com/Presentations/COS_NA2016-6-8/Rcode1.R">[Rcode1]</a>,
+<a href="http://hui1987.com/Presentations/COS_NA2016-6-8/Rcode2.R">[Rcode2]</a></li>
 
-- [Add a table of contents](https://github.com/yihui/hugo-xmin/pull/7)
+<li>2016-06-02: <a href="http://hui1987.com/Presentations/COS_NA2016-6-2/Presentation_2016_6_2.html">??????????????</a>,
+ <a href="https://www.youtube.com/watch?v=N5iWmpTtxTw">[YouTube]</a>, 
+<a href="http://www.xueqing.tv/course/66">[?????]</a>,
+<a href="http://hui1987.com/Presentations/COS_NA2016-6-2/Presentation_2016_6_2.html">[Slides]</a>,
+<a href="http://hui1987.com/Presentations/COS_NA2016-6-2/Rcode.R">[Rcode]</a></li>
 
-- [Add a link in the footer of each page to "Edit this page" on Github](https://github.com/yihui/hugo-xmin/pull/6)
+<li>2016-05-26: <a href="http://dreamhunter.me/shinyTutorial/">Shiny Tutorial</a>, 
+<a href="http://www.youtube.com/watch?v=fA1LknmPoa0">[YouTube]</a>, 
+<a href="http://dreamhunter.me/shinyTutorial/">[Slides]</a></li>
 
-To fully understand these examples, you have to read [the section on Hugo templates](https://bookdown.org/yihui/blogdown/templates.html) in the **blogdown** book.
+<li>2016-04-28: <a href="http://heather.cs.ucdavis.edu/Iowa.pdf">R package regtools and mystery of p-value</a>, 
+<a href="https://www.youtube.com/watch?v=H6sWzrYIY5o">[YouTube]</a>, 
+<a href="http://heather.cs.ucdavis.edu/Iowa.pdf">[Slides]</a></li>
 
-# Design philosophy
+<li>2016-03-23: <a href="http://scientistcafe.com/CIRUG/DeepLearningIntro.pdf">A Brief Intro to Deep Learning</a>, 
+<a href="https://www.youtube.com/watch?v=of-Q92cD850">[YouTube]</a>, 
+<a href="http://scientistcafe.com/CIRUG/DeepLearningIntro.pdf">[Slides]</a></li>
 
-Lastly, a few words about my design philosophy for this theme: I have been relying on existing frameworks like Bootstrap for years since I'm not really a designer, and I was always scared by the complexity of CSS.
+<li>2016-03-23: <a href="http://scientistcafe.com/CIRUG/mxnet.pdf">Deep Learning in R with MXNet</a>, <a href="https://www.youtube.com/watch?v=of-Q92cD850">[YouTube]</a>, 
+<a href="http://scientistcafe.com/CIRUG/mxnet.pdf">[Slides]</a></li>
 
-When I started writing this theme, I asked myself, "_What if I just write from scratch?_" No Bootstrap. No Normalize.css. I don't care about IE (life could be so much easier without IE) or inconsistencies among browsers (for personal websites). As long as the theme looks okay in Chrome, Firefox, and Safari, I'm done. Thanks to the simplicity of Markdown, you cannot really produce very complicated HTML, and I think styling the HTML output from Markdown is much simpler than general HTML documents. For example, I do not need to care much about form elements like textareas or buttons.
+<li>2016-01-21:  <a href="https://www.youtube.com/watch?v=99lnTku75Pc">Applied Predictive Modeling</a>, 
+<a href="https://www.youtube.com/watch?v=99lnTku75Pc">[YouTube]</a></li>
+<!--<li>2015-12-7: Web Scraping using R, <a href="http://educate-r.org/2015/12/04/centraliowaruser/"> [Slides] </a></li>-->
 
-After I finished this theme, I started to wonder why I'd need `normalize.css` at all (it sounds like a religious belief). The default appearance of modern browsers actually looks pretty good in my eyes, after I tweak the typeface a little bit.
+<li>2015-11-02: <a href="http://scientistcafe.com/2015/10/28/DataPre-processingUsingR.html">Data Pre-processing Using R</a> & Introduction to R packages: 
+<a href="https://cran.r-project.org/web/packages/corrgram/index.html"> corrgram</a>,
+ <a href="https://cran.r-project.org/web/packages/lucid/index.html">lucid </a></li>
+ 
+<li>2015-07-14: <a href="http://scientistcafe.com/2015/07/18/CIRUG2015714.html">The Ecosystem of R Markdown</a></li>
+  
 
-Compared to inconsistencies across browsers, I care much more about these properties of HTML elements:
+ 
+## About Sponsors  
 
-- Tables should always be centered, and striped tables are easier to read especially when they are wide. Tables should not have vertical borders.
-- An image should be centered if it is the only child element of a paragraph.
-- The `max-width` of images, videos, and iframes should be `100%`.
+> 
 
-I hope you can enjoy this theme. The source code is [on Github](https://github.com/yihui/hugo-xmin). Happy hacking!
+The mission of <a href="http://community.amstat.org/statisticsinmarketingsection/home">ASA Statistics in Marketing Section</a>
+ is to foster the development and application of innovative statistic methodologies 
+ for the resolution of substantive decisions problems in marketing. The scope includes theoretical, methodological, 
+ empirical and applied research oriented toward the practice of marketing. The section encourages the cooperation 
+ between academics and marketing managers to advance statistical science in marketing and stimulate research.
+ Join ASA Statistics in Marketing <a href="http://community.amstat.org/statisticsinmarketingsection/home">here</a>! </p>
+
+ <!--ACAP is a non-profit organization. Our mission is to provide a shared learning platform aimed at promoting 
+ analytics profession in Chinese community during the era of data democratization. Our goal is to support 
+ Chinese professionals, researchers and students to develop their analytics mindsets across various industries, 
+ to enhance their technical skills in a practical manner, and to help grow soft skills along their career paths.
+ Join ACAP <a href="http://www.peachdata.org/membership/membership-levels/">here</a>! </p> -->
+
+<a href="http://www.meetup.com/Central-Iowa-R-User-Group/">CIRUG </a> is dedicated to bringing together area practitioners of R 
+to exchange knowledge, inspire new users, and spur the adoption of R for innovative research and commercial applications.
