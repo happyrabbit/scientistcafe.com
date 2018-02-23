@@ -46,7 +46,7 @@
 body {
   background-color: white;
   font: large "Linux Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
-  *font-size: small;
+  font-size: small;
   text-align: center;
 }
 
@@ -78,26 +78,7 @@ h1, h2, h3, h4, caption, thead th {
   text-shadow: 0 0 1px #667;
 }
 
-h1 {
-  font-size: 210.7%;
-  line-height: 1.1;
-  text-align: center;
-  width: 100%;
-  margin: 1.49em 0;
-}
-h2 {
-  font-size: 180%;
-  line-height: 1.3125;
-  margin: 1.167em 0;
-  text-align: center;
-  clear: both;
-}
-h3 {
-  font-size: large;
-  line-height: 1.167;
-  margin: 1.556em 0;
-  text-align: center;
-}
+
 
 /* code */
 pre {
