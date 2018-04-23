@@ -1,6 +1,6 @@
 ---
 title: Reproducible Report, HTML5 Slides and Shiny Dashboard
-author: "Hui Lin"
+author: "[Hui Lin](http://scientistcafe.com) </br> [Follow me on Twitter](https://twitter.com/gossip_rabbit)"
 date: 2017-06-22T21:13:14-05:00
 categories: ["Visualization"]
 tags: ["R Markdown", "Shiny", "Report", "Dashboard"]

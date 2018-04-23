@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://scientistcafe.com/post/2017/07/18/model-error/</loc>
+    <lastmod>2017-07-18T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://scientistcafe.com/post/2017/07/11/what-kind-of-questions-can-data-science-solve/</loc>
     <lastmod>2017-07-11T21:13:14-05:00</lastmod>
   </url>
@@ -40,6 +45,12 @@
   </url>
   
   <url>
+    <loc>http://scientistcafe.com/categories/data-science-theory/</loc>
+    <lastmod>2017-07-18T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://scientistcafe.com/categories/example/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -47,7 +58,7 @@
   
   <url>
     <loc>http://scientistcafe.com/</loc>
-    <lastmod>2017-07-11T21:13:14-05:00</lastmod>
+    <lastmod>2017-07-18T21:13:14-05:00</lastmod>
   </url>
   
   <url>
@@ -61,6 +72,12 @@
   </url>
   
   <url>
+    <loc>http://scientistcafe.com/tags/model-error/</loc>
+    <lastmod>2017-07-18T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://scientistcafe.com/note/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -68,7 +85,7 @@
   
   <url>
     <loc>http://scientistcafe.com/post/</loc>
-    <lastmod>2017-07-11T21:13:14-05:00</lastmod>
+    <lastmod>2017-07-18T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   

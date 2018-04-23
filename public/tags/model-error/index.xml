@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Error on Statistics = Science &#43; Art</title>
+    <link>http://scientistcafe.com/tags/model-error/</link>
+    <description>Recent content in Model Error on Statistics = Science &#43; Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jul 2017 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="http://scientistcafe.com/tags/model-error/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Model Error</title>
+      <link>http://scientistcafe.com/post/2017/07/18/model-error/</link>
+      <pubDate>Tue, 18 Jul 2017 21:13:14 -0500</pubDate>
+      
+      <guid>http://scientistcafe.com/post/2017/07/18/model-error/</guid>
+      <description>Systematic Error and Random Error Assume \(\mathbf{X}\) is \(n \times p\) observation matrix and \(\mathbf{y}\) is response variable, we have:
+$$\mathbf{y}=f(\mathbf{X})+\mathbf{\epsilon}$$
+where \(\mathbf{\epsilon}\) is the random error with a mean of zero. The function \(f(\cdot)\) is our modeling target, which represents the information of Y that can be explained by X. The main goals of estimating \(f(\cdot)\) are inference and prediction, or sometimes both. In general, there is a trade-off between flexibility and interpretability of the model.</description>
+    </item>
+    
+  </channel>
+</rss>
