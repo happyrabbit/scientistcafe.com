@@ -2,7 +2,7 @@
 title: Home
 ---
 
-[<img src="https://simpleicons.org/icons/github.svg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-xmin)
+[<img src="https://github.com/happyrabbit/linhui.org/blob/gh-pages/logo.png" style="max-width:15%;min-width:40px;float:right;" alt="Scientistcafe" />](http://scientistcafe.com)
 
 # Statistics = Science(Data) + Art(Intuition)
 
