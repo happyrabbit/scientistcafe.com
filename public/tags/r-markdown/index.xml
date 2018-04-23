@@ -2,33 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R Markdown on Statistics = Science &#43; Art</title>
-    <link>/tags/r-markdown/</link>
+    <link>http://scientistcafe.com/tags/r-markdown/</link>
     <description>Recent content in R Markdown on Statistics = Science &#43; Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2017 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2017 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://scientistcafe.com/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>What kind of questions can data science solve?</title>
-      <link>/post/2017/07/11/what-kind-of-questions-can-data-science-solve/</link>
-      <pubDate>Tue, 11 Jul 2017 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2017/07/11/what-kind-of-questions-can-data-science-solve/</guid>
-      <description>Hui Lin Follow me on Twitter Github 2017-07-11 What kind of questions can data science solve?  Prerequisites Data science is not a panacea, and data scientists are not magicians. There are problems data science can’t help. It is best to make a judgment as early in the analytical cycle as possible. Tell your clients honestly and clearly when you figure data analytics can’t give the answer they want. What kind of questions can data science solve?</description>
-    </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Reproducible Report, HTML5 Slides and Shiny Dashboard</title>
+      <link>http://scientistcafe.com/post/2017/06/22/reproducible-report-html5-slides-and-shiny-dashboard/</link>
+      <pubDate>Thu, 22 Jun 2017 21:13:14 -0500</pubDate>
       
-      <guid>/post/2015/07/23/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>http://scientistcafe.com/post/2017/06/22/reproducible-report-html5-slides-and-shiny-dashboard/</guid>
+      <description> What is R Markdown? How to Start?  How It Works? Get Started Markdown Basic  HTML Document  Create an HTML document Floating TOC Code Chunks  HTML5 Slides  ioslides presentation slidy presentation  Dashboards  Layouts Components  Shiny Dashboard  Brief Introduction to Shiny Using shiny with flexdashboard  HTML Widgets   </description>
     </item>
     
   </channel>

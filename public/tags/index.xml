@@ -2,93 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Statistics = Science &#43; Art</title>
-    <link>/tags/</link>
+    <link>http://scientistcafe.com/tags/</link>
     <description>Recent content in Tags on Statistics = Science &#43; Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2017 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://scientistcafe.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blogdown</title>
-      <link>/tags/blogdown/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      <title>Dashboard</title>
+      <link>http://scientistcafe.com/tags/dashboard/</link>
+      <pubDate>Thu, 22 Jun 2017 21:13:14 -0500</pubDate>
       
-      <guid>/tags/blogdown/</guid>
+      <guid>http://scientistcafe.com/tags/dashboard/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Markdown</title>
-      <link>/tags/markdown/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MathJax</title>
-      <link>/tags/mathjax/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mathjax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pandoc</title>
-      <link>/tags/pandoc/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/pandoc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plot</title>
-      <link>/tags/plot/</link>
+      <title>Data Science</title>
+      <link>http://scientistcafe.com/tags/data-science/</link>
       <pubDate>Tue, 11 Jul 2017 21:13:14 -0500</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>http://scientistcafe.com/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Tue, 11 Jul 2017 21:13:14 -0500</pubDate>
+      <link>http://scientistcafe.com/tags/r-markdown/</link>
+      <pubDate>Thu, 22 Jun 2017 21:13:14 -0500</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>http://scientistcafe.com/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>RStudio</title>
-      <link>/tags/rstudio/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      <title>Report</title>
+      <link>http://scientistcafe.com/tags/report/</link>
+      <pubDate>Thu, 22 Jun 2017 21:13:14 -0500</pubDate>
       
-      <guid>/tags/rstudio/</guid>
+      <guid>http://scientistcafe.com/tags/report/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Tue, 11 Jul 2017 21:13:14 -0500</pubDate>
+      <title>Shiny</title>
+      <link>http://scientistcafe.com/tags/shiny/</link>
+      <pubDate>Thu, 22 Jun 2017 21:13:14 -0500</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>http://scientistcafe.com/tags/shiny/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>/tags/tutorial/</link>
+      <link>http://scientistcafe.com/tags/tutorial/</link>
       <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tutorial/</guid>
+      <guid>http://scientistcafe.com/tags/tutorial/</guid>
       <description></description>
     </item>
     

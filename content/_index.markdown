@@ -71,9 +71,9 @@ title: Home
 <a href="http://scientistcafe.com/CIRUG/CausalMediationAnalysis.pdf">[Slides]</a>
 </li>
 
-<li>2016-07-21: <a href="http://hui1987.com/Presentations/AirlineSurvey_XueQing/AirlineSurveyPerception.html#(1)">?R??????????????</a>,
+<li>2016-07-21: <a href="http://hui1987.com/Presentations/AirlineSurvey_XueQing/AirlineSurveyPerception.html#(1)">用R进行市场调查和消费者感知分析</a>,
 <a href="https://youtu.be/joajST7JByo">[YouTube]</a>,
-<a href="http://www.xueqing.tv/course/69">[?????]</a>,
+<a href="http://www.xueqing.tv/course/69">[雪晴数据网]</a>,
 <a href="http://hui1987.com/Presentations/AirlineSurvey_XueQing/AirlineSurveyPerception.html#(1)">[Slides],</a>
 <a href="http://hui1987.com/Presentations/AirlineSurvey_XueQing/Rcode.R">[Rcode]</a>
 </li>
@@ -83,16 +83,16 @@ title: Home
 <a href="http://scientistcafe.com/CIRUG/chapman-feit-R-for-Marketing-Research-book-talk.pdf">[Slides]</a>
 </li>
 
-<li>2016-06-08: <a href="http://hui1987.com/Presentations/COS_NA2016-6-8/Presentation_2016_6_8.html">????????????1?</a>,
+<li>2016-06-08: <a href="http://hui1987.com/Presentations/COS_NA2016-6-8/Presentation_2016_6_8.html">数据整合和辅助建模技术（1）</a>,
  <a href="https://www.youtube.com/watch?v=fsHgJhOYOTM">[YouTube]</a>, 
-<a href="http://www.xueqing.tv/course/67">[?????]</a>,
+<a href="http://www.xueqing.tv/course/67">[雪晴数据网]</a>,
 <a href="http://hui1987.com/Presentations/COS_NA2016-6-8/Presentation_2016_6_8.html">[Slides]</a>,
 <a href="http://hui1987.com/Presentations/COS_NA2016-6-8/Rcode1.R">[Rcode1]</a>,
 <a href="http://hui1987.com/Presentations/COS_NA2016-6-8/Rcode2.R">[Rcode2]</a></li>
 
-<li>2016-06-02: <a href="http://hui1987.com/Presentations/COS_NA2016-6-2/Presentation_2016_6_2.html">??????????????</a>,
+<li>2016-06-02: <a href="http://hui1987.com/Presentations/COS_NA2016-6-2/Presentation_2016_6_2.html">数据分析一般流程和数据预处理</a>,
  <a href="https://www.youtube.com/watch?v=N5iWmpTtxTw">[YouTube]</a>, 
-<a href="http://www.xueqing.tv/course/66">[?????]</a>,
+<a href="http://www.xueqing.tv/course/66">[雪晴数据网]</a>,
 <a href="http://hui1987.com/Presentations/COS_NA2016-6-2/Presentation_2016_6_2.html">[Slides]</a>,
 <a href="http://hui1987.com/Presentations/COS_NA2016-6-2/Rcode.R">[Rcode]</a></li>
 
@@ -120,13 +120,11 @@ title: Home
  <a href="https://cran.r-project.org/web/packages/lucid/index.html">lucid </a></li>
  
 <li>2015-07-14: <a href="http://scientistcafe.com/2015/07/18/CIRUG2015714.html">The Ecosystem of R Markdown</a></li>
-  
 
  
 ## About Sponsors  
 
-> 
-
+>  
 The mission of <a href="http://community.amstat.org/statisticsinmarketingsection/home">ASA Statistics in Marketing Section</a>
  is to foster the development and application of innovative statistic methodologies 
  for the resolution of substantive decisions problems in marketing. The scope includes theoretical, methodological, 
@@ -134,11 +132,7 @@ The mission of <a href="http://community.amstat.org/statisticsinmarketingsection
  between academics and marketing managers to advance statistical science in marketing and stimulate research.
  Join ASA Statistics in Marketing <a href="http://community.amstat.org/statisticsinmarketingsection/home">here</a>! </p>
 
- <!--ACAP is a non-profit organization. Our mission is to provide a shared learning platform aimed at promoting 
- analytics profession in Chinese community during the era of data democratization. Our goal is to support 
- Chinese professionals, researchers and students to develop their analytics mindsets across various industries, 
- to enhance their technical skills in a practical manner, and to help grow soft skills along their career paths.
- Join ACAP <a href="http://www.peachdata.org/membership/membership-levels/">here</a>! </p> -->
 
 <a href="http://www.meetup.com/Central-Iowa-R-User-Group/">CIRUG </a> is dedicated to bringing together area practitioners of R 
 to exchange knowledge, inspire new users, and spur the adoption of R for innovative research and commercial applications.
+
