@@ -10,10 +10,16 @@ h1,
 h2 {
   font-family: 'essays1743', serif;
   text-align: center;
+  text-transform: uppercase;
 }
 
-h1{
-  line-height: 2em
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  line-height: 2em;
+  font-size: 1.8em;
 }
 
 code {
