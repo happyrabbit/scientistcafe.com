@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "essays1743";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../f/essays1743-webfont.woff) format("woff"),
+    url(../f/essays1743-webfont.eot) format("eot"),
+    url(../f/essays1743-webfont.ttf) format("ttf"),
+    url(../f/essays1743-webfont.svg) format("svg");
+}
