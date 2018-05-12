@@ -41,4 +41,4 @@ footnotereturnlinkcontents = "↩"
 [params]
     description = "A Website about Data Science"
     author = "Hui Lin"
-    footer = "&copy; [Hui Lin](http://linhui.org) 2017 -- 2018 | [Github](https://github.com/happyrabbit) | [Twitter](https://twitter.com/gossip_rabbit)"
+    footer = "&copy; [Hui Lin](http://linhui.org) 2018 -- 2019 | [Github](https://github.com/happyrabbit) | [Twitter](https://twitter.com/gossip_rabbit) | [Netlify](https://www.netlify.com)" 
