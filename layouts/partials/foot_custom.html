@@ -1,3 +1,4 @@
+<script>
 (function() {
   var i, text, code, codes = document.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
@@ -18,10 +19,11 @@
     i++;
   }
 })();
+</script>
 
 <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-(function() {
+<script>(function() {
   function center_el(tagName) {
     var tags = document.getElementsByTagName(tagName), i, tag;
     for (i = 0; i < tags.length; i++) {
@@ -42,4 +44,5 @@
   for (var i = 0; i < tagNames.length; i++) {
     center_el(tagNames[i]);
   }
-})();
+})();</script>
+
