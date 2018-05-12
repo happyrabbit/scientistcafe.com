@@ -44,6 +44,12 @@ hr {
   color: #ddd;
 }
 
+.author, .date {
+ text-align: center 
+}
+
+
+
 /* code */
 pre {
   border: 1px solid #ddd;
