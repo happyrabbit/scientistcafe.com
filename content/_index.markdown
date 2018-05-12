@@ -2,6 +2,8 @@
 title: Home
 ---
 
+<!--[<img src="http://scientistcafe.com/logo.png" style="max-width:40%;min-width:50px;float:right;" alt="Scientistcafe" />](http://scientistcafe.com) -->
+
 # Statistics = Science(Data) + Art(Intuition)
 
 ## Data Science Workshop 
@@ -119,7 +121,6 @@ title: Home
  
 <li>2015-07-14: <a href="http://scientistcafe.com/2015/07/18/CIRUG2015714.html">The Ecosystem of R Markdown</a></li>
 
- 
 ## About Sponsors  
 
 >  
