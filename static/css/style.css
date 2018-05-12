@@ -6,25 +6,22 @@ body {
   font-family: Optima, Candara, Calibri, Arial, sans-serif;
 }
 
-h1,
-h2 {
+h1 {
+  font-size: 2em;
+  line-height: 2em;
   font-family: 'essays1743', serif;
   text-align: center;
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-h1 {
-  font-size: 2em;
-}
-
 h2 {
   line-height: 2em;
   font-size: 1.8em;
+  font-family: 'essays1743', serif;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-=======
->>>>>>> 2aa9102221bf57376d85ecbd9a874b6afccbf255
 code {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 85%;
