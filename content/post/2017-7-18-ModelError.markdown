@@ -71,7 +71,7 @@ ggplot(dat,aes(x,fx))+geom_smooth(span = 0.03)
 ```
 
 ```
-## `geom_smooth()` using method = 'loess'
+## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
 ```
 
 <img src="/post/2017-7-18-ModelError_files/figure-html/unnamed-chunk-3-1.png" width="672" />
@@ -103,10 +103,10 @@ multiplot(p1,p2,p3,p4,cols=2)
 ```
 
 ```
-## `geom_smooth()` using method = 'loess'
-## `geom_smooth()` using method = 'loess'
-## `geom_smooth()` using method = 'loess'
-## `geom_smooth()` using method = 'loess'
+## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
+## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
+## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
+## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
 ```
 
 <img src="/post/2017-7-18-ModelError_files/figure-html/unnamed-chunk-4-1.png" width="672" />
