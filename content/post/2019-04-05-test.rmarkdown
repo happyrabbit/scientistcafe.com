@@ -6,3 +6,7 @@ slug: test
 categories: []
 tags: []
 ---
+
+```{r}
+c(1:10)
+```
